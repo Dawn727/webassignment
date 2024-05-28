@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.MHmusic.com</title>
+    <link rel="icon" type="image/x-icon" href="https://static2.tgstat.ru/channels/_0/2b/2b4d22308b74c6a2de5e9814cb72187f.jpg">
+    <style>
+        body 
+        {
+            background: #000;
+        }
+        .MH 
+        {
+            width: 800px;
+            height: 550px;
+            background: url(https://moewalls.com/wp-content/uploads/2023/08/gojo-sunglasses-monochrome-jujutsu-kaisen-thumb.jpg) no-repeat center center;
+            background-size: cover;
+            margin: auto;
+            border: 20px solid #111010;
+            outline: 1px solid #0a0a0a;
+            overflow: hidden;
+            transition: all ease-in-out 1s;
+        }
+        .mhx1 
+        {
+            display: flex;
+            color: #ccc;
+            text-transform: lowercase;
+            text-align: center;
+            width: 400px;
+            height: 550px;
+            margin: auto;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+        }
+        .mhxx1 
+        {
+            font-family: chill;
+            font-size: 250px;
+            position: relative;
+            left: -60px;
+            transition: all ease-in-out 0.9s;
+            transition-delay: 0.8s;
+        }
+        .mhxxx1 
+        {
+            font-family: chill;
+            font-size: 250px;
+            position: relative;
+            right: -30px;
+            transition: all ease-in-out 0.8s;
+            transition-delay: 0.8s;
+        }
+        .MH:hover .mhxx1
+        {
+            left: -450px;
+            transition: all ease-in-out 0.8s;
+        }
+        .MH:hover .mhxxx1 
+        {
+            right: -450px;
+            transition: all ease-in-out 0.8s;
+        }
+        .MH:hover 
+        {
+             background: url(https://i.pinimg.com/736x/4d/21/db/4d21db9453025a5c62867cfa4b20979b.jpg);
+             transition: all ease-in-out 1s;
+        }
+
+        .box-mh 
+        {
+            width: 800px;
+            height: 550px;
+            position: relative;
+            top: -550px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: rajdhani;
+            text-transform: uppercase;
+            font-size: 10px;
+            letter-spacing: 1px;
+        }
+        .datomh 
+        {
+            width: 240px;
+            height: 380px;
+            background: rgba(0,0,0,0.6);
+            color: #ccc;
+            padding: 40px;
+            line-height: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            top: -520px;
+            transition: all ease-in-out 0.8s;
+        }
+        .dmh 
+        {
+            width: 240px;
+            height: 330px;
+            border-bottom: 1px solid #5c4763;
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            padding-bottom: 1px;
+            justify-content: space-between;
+        }
+        .datomh m 
+        {
+            font-weight: 700;
+        }
+        .datomh n 
+        {
+            text-align: right;
+        }
+        .mhquo 
+        {
+            background: #5c4763;
+            padding: 10px;
+            text-align: justify;
+            height: 50px;
+            line-height: 10px;
+        }
+        .mhgif 
+        {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        border: 10px solid #222;
+        margin: auto;
+        margin-bottom: 20px;
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7jBwPYS-fu0vf1Yu3RtrfHAvvEVg0tAJBlxi8fTTJew&s.jpg);
+        }
+        .musicmh 
+        {
+            width: 240px;
+            height: 380px;
+            background: rgba(0,0,0,0.6);
+            margin-left: 40px;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            position: relative;
+            bottom: -520px;
+            transition: all ease-in-out 0.8s;
+        }
+        .MH:hover .musicmh 
+        {
+            bottom: 0px;
+            transition: all ease-in-out 0.8s;
+            transition-delay: 0.8s;
+        }
+        .mmh 
+        {
+            width: 240px;
+            display: flex;
+            align-items: center;
+            background: rgba(0,0,0,0.4);
+            padding: 4px;
+            line-height: 10px;
+        }
+        .MH:hover .datomh 
+        {
+            top: 0px;
+            transition: all ease-in-out 0.8s;
+            transition-delay: 0.8s;
+        }
+        .mmh i 
+        {
+            font-size: 20px;
+            color: #ccc;
+            padding: 10px;
+        }
+        .mmh a:hover 
+        {
+            color: #ccc;
+            transition: all ease-in-out 0.3s;
+        }
+        .mmh a 
+        {
+            width: 70px;
+            font-size: 11px;
+            font-weight: 700;
+            color: #5c4763;
+            border: 0;
+            text-decoration: none;
+            transition: all ease-in-out 0.3s;
+        }
+        .mmh m 
+        {
+            font-size: 11px;
+            color: #999;
+            margin-left: 5px;
+            display: flex;
+        }
+        .mmh m:before 
+        {
+            content: '/';
+            font-weight: 700;
+            color: #5c4763;
+            margin-right: 10px;
+        }
+        .botonmh 
+        {
+            width: 250px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            justify-content: space-between;
+        }
+        .botonmh a 
+        {
+            color: #5c4763;
+            font-size: 20px;
+            -webkit-text-stroke: 1px transparent;
+            transition: all ease-in-out 0.4s;
+        }
+        .botonmh a:hover 
+        {
+            -webkit-text-stroke: 1px #5c4763;
+            color: transparent;
+            transition: all ease-in-out 0.4s;
+        }
+        .bottomlyrm 
+        {
+            font-family: rajdhani;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            color: #ccc;
+            position: relative;
+            top: -600px;
+            text-align: center;
+            line-height: 10px;
+            transition: all ease-in-out 0.8s;
+            transition-delay: 1s;
+        }
+        .MH:hover .bottomlyrm 
+        {
+            filter: blur(10px);
+            opacity: 0;
+            transition: all ease-in-out 0.8s;
+        }
+        @font-face
+         {
+            font-family: 'Chill';
+            font-style: normal;
+            font-weight: normal;
+            src: url('https://dl.dropbox.com/s/agpnu5irqlaaeco/Chillvornia%20Stamp%20Slant.otf') format('woff');
+        }
+    </style>
+</head>
+<body>
+    <div class="MH">
+        <div class="mhx1">
+            <div class="mhxx1">MH</div>
+            <div class="mhxxx1">Music</div>
+        </div>
+
+        <div class="box-mh">
+            <div class="datomh">
+                <div class="mhgif"></div>
+                <div class="mhquo">I don't want your sympathy, I don't want your honesty, I just want to get some peace of mind. It's only in my head As I roll over and play dead. I don't want to hear it anymore.</div>
+                <div class="dmh"><m>エイリアス</m><n>mh, Maahamas</n></div>
+                <div class="dmh"><m>年齢</m><n>四十二歳</n></div>
+                <div class="dmh"><m>居住地</m><n>almyst</n></div>
+                <div class="dmh"><m>職業</m><n>料理人</n></div>
+                <div class="dmh"><m>専門</m><n>商人</n></div>
+            </div>
+            <div class="musicmh">
+                <div class="mmh"><i class="far fa-waveform"></i><a href="https://youtu.be/uMeR2W19wT0?feature=shared">Unravel</a><m> TK from 凛として時雨</m></div>
+                <div class="mmh"><i class="far fa-waveform"></i><a href="https://youtu.be/dFlDRhvM4L0?feature=shared">KICK!!</a><m>Kenshi Yonezu</m></div>
+                <div class="mmh"><i class="far fa-waveform"></i><a href="https://youtu.be/ZGXOWPZ64DA?feature=shared">『DARK ARIA ＜LV2＞』</a><m>SawanoHiroyuki[nZk]:XAI</m></div>
+                <div class="mmh"><i class="far fa-waveform"></i><a href="https://youtu.be/5-SBalhMAJA?feature=shared">NAME</a><m>Tsuzuri </m></div>
+                <div class="mmh"><i class="far fa-waveform"></i><a href="https://youtu.be/1tk1pqwrOys?feature=shared">廻廻奇譚</a><m> Eve MV</m></div>
+                <div class="mmh"><i class="far fa-waveform"></i><a href="https://youtu.be/AqKm5HFWAZw?feature=shared">Running in Blind</a><m>RUSTAGE ft. McGwire [JJK]</m></div>
+                <div class="botonmh">
+                    <a href="#" title="cronología"><i class="fas fa-calendar-times"></i></a>
+                    <a href="#" title="tablilla de rol"><i class="fas fa-feather"></i></a>
+                    <a href="#" title="tablilla de combate"><i class="fas fa-swords"></i></a>
+                    <a href="#" title="relaciones"><i class="fas fa-apple-alt"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottomlyrm">Suddenly I know I'm not sleeping. <br>Hello I'm still here, All that's left of yesterday</div>
+    </div>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css" rel="stylesheet"/>
+
+</body>
+</html>
